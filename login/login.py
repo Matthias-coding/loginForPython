@@ -58,16 +58,7 @@ class Login(object):
             return False
 
 
-config = {
-    "apiKey": "AIzaSyDehw4NuNihPM1Lezc1GbPGWE272yHOE1s",
-    "authDomain": "rgb-led-control.firebaseapp.com",
-    "databaseURL": "https://rgb-led-control.firebaseio.com",
-    "storageBucket": "rgb-led-control.appspot.com",
-    "tls": {
-        "rejectUnauthorized": False
-        }
-    }
 
-login = Login('firebase',config,'/users')
+#login = Login('firebase',config,'/users')
 #login.register('Teddy', '12345', '12345')
-login.login('Teddy', '12345')
+#login.login('Teddy', '12345')
